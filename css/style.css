@@ -27,6 +27,14 @@ ul li a {
 .logo {
   width: 88px;
 }
+/* NAVBAR  */
+nav ul li a {
+  transition: all 0.3s ease;
+}
+nav ul li:hover a {
+  text-decoration: none;
+  color: var(--red);
+}
 .banner {
   background: url(../img/bg-1.jpg);
   background-position: top center;
