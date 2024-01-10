@@ -695,16 +695,7 @@ footer a:hover {
   color: var(--red);
   text-decoration: none;
 }
-.widget {
-  position: relative;
-}
-.footer .widget .widget-title {
-  margin-bottom: 25px;
-  color: #000;
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-}
+
 .app-btn {
   align-items: center;
   display: flex;
@@ -805,4 +796,12 @@ footer a:hover {
 }
 .btn:hover i {
   color: #fff;
+}
+.foot-bottom {
+  background: #e9e2d8;
+  border-top: 0.5px solid gray;
+}
+.foot-bottom span {
+  color: var(--red);
+  font-weight: 300;
 }
