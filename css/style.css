@@ -114,10 +114,14 @@ ul li a {
   opacity: 0;
   transition: all 0.8s;
 }
+.btn-success {
+  background-color: var(--red) !important;
+  border-color: var(--red) !important;
+}
 .dot {
   height: 14px;
   width: 14px;
-  background-color: green;
+  background-color: var(--red);
   border-radius: 50%;
   position: absolute;
   left: 27%;
